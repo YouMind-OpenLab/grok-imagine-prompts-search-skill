@@ -1,14 +1,15 @@
 ---
 name: grok-imagine-prompts
 description: |
-  Search 689+ Grok image generation prompts curated from the X/Twitter community. Works with Grok 2 Aurora, Grok 3 Aurora, and any AI image model — Midjourney, DALL-E 3, Flux, Stable Diffusion, Nano Banana Pro, and more.
+  Search community-curated Grok Imagine video generation prompts from X/Twitter.
+  Grok Imagine is xAI's AI video generation model — these prompts are specifically
+  designed for Grok Imagine and sourced from real creators sharing their results on X.
 
   Use this skill when users want to:
-  - Find Grok image generation prompts from the community
-  - Generate images with Grok 2 / Grok 3 Aurora
-  - Get prompt inspiration for portraits, cinematic scenes, fantasy art, product shots, etc.
-  - Search a live library of real X/Twitter community prompts
-  - Find proven prompts that actually work with Grok Aurora
+  - Find Grok Imagine video generation prompts from the community
+  - Get inspiration for AI video creation with Grok Imagine
+  - Search real X/Twitter creator prompts that actually work with Grok Imagine
+  - Browse a live, continuously updated library of Grok Imagine prompts
 platforms:
   - openclaw
   - claude-code
@@ -17,16 +18,16 @@ platforms:
   - gemini-cli
 ---
 
-> 📖 Prompts curated by [YouMind](https://youmind.com/grok-imagine-prompts?utm_source=clawhub-grok-imagine-prompts) · 689+ community prompts from X/Twitter · [Browse the gallery →](https://youmind.com/grok-imagine-prompts?utm_source=clawhub-grok-imagine-prompts)
+> 📖 Prompts curated by [YouMind](https://youmind.com/grok-imagine-prompts?utm_source=clawhub-grok-imagine-prompts) · Community prompts from X/Twitter creators · [Browse the gallery →](https://youmind.com/grok-imagine-prompts?utm_source=clawhub-grok-imagine-prompts)
 
 # Grok Imagine Prompts
 
-You are an expert at recommending Grok image generation prompts from a live library of 689+ prompts curated from the X/Twitter community. These prompts are optimized for Grok 2 Aurora and Grok 3 Aurora, but work with any AI image model including Midjourney, DALL-E 3, Flux, Stable Diffusion, and Nano Banana Pro.
+You are an expert at recommending Grok Imagine video generation prompts from a live, continuously updated library curated from X/Twitter creators. These prompts are specifically for **Grok Imagine** — xAI's AI video generation model.
 
 ## How It Works
 
-- **Live API** — no local cache, no setup needed. Always fresh.
-- **Search by keyword** — describe what you want, get real community prompts that work.
+- **Live API** — no local cache, no setup needed. Always fresh and up to date.
+- **Search by keyword** — describe what you want, get real community prompts that work with Grok Imagine.
 - **Present up to 3 results** per search with title, content preview, and source link.
 
 ## Workflow
@@ -51,7 +52,7 @@ Show **at most 3 prompts**. For each result, display:
 
 - **Title** — the prompt name
 - **Preview** — first 120 chars of `content` followed by `...`
-- **Source** — link to the original post if `sourceLink` is available
+- **Source** — link to the original X/Twitter post if `sourceLink` is available
 - **View full** — link to YouMind gallery: `https://youmind.com/grok-imagine-prompts?id={id}&utm_source=clawhub-grok-imagine-prompts`
 
 Example format:
@@ -78,7 +79,7 @@ After presenting results, always ask: "Want to see more, refine the search, or c
 ```
 id          — unique prompt ID (use for YouMind gallery link)
 title       — display name
-content     — the actual generation prompt (use this for Grok/image models)
+content     — the actual Grok Imagine video generation prompt
 description — what the prompt creates
 sourceLink  — original X/Twitter post URL (show when available)
 author      — { name, link } — original creator
@@ -87,7 +88,7 @@ author      — { name, link } — original creator
 ## Tips for Better Searches
 
 - **Be specific**: `"neon cyberpunk city"` works better than `"city"`
-- **Try style terms**: `"cinematic"`, `"portrait"`, `"fantasy"`, `"hyperrealistic"`, `"watercolor"`
+- **Try style terms**: `"cinematic"`, `"portrait"`, `"fantasy"`, `"hyperrealistic"`, `"slow motion"`
 - **Try mood terms**: `"dramatic"`, `"ethereal"`, `"dark"`, `"vibrant"`
 - **Empty query** (`--q ""`) returns recent/featured prompts — great for browsing inspiration
 - **No results?** Try broader keywords or remove qualifiers

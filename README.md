@@ -1,19 +1,25 @@
 # Grok Imagine Prompts Search Skill
 
-[![Prompts](https://img.shields.io/badge/Prompts-689%2B-brightgreen)](https://youmind.com/grok-imagine-prompts)
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-Skill-blue)](https://clawhub.com/skill/grok-imagine-prompts)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-orange)](https://github.com/YouMind-OpenLab/grok-imagine-prompts)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-orange)](https://github.com/YouMind-OpenLab/grok-imagine-prompts-search-skill)
+[![Daily Updates](https://img.shields.io/badge/Updates-Daily-purple)]()
 
-> Search 689+ Grok Imagine prompts curated from real X/Twitter creators. Works with Grok 2 Aurora, Grok 3 Aurora, and any AI image model.
+> Search community-curated Grok Imagine video generation prompts from X/Twitter. Continuously updated as creators share their work.
 >
-> 🖼️ [Browse the Gallery →](https://youmind.com/grok-imagine-prompts)
+> 🎬 [Browse the Gallery →](https://youmind.com/grok-imagine-prompts)
+
+## What Is This?
+
+An **AI agent skill** that lets Claude, OpenClaw, Cursor, and other AI assistants search a live library of **Grok Imagine video generation prompts** curated from real X/Twitter creators.
+
+**Grok Imagine** is xAI's AI video generation model. These prompts are specifically designed for Grok Imagine — not repurposed from other models.
 
 ## Why Use This Skill?
 
-- ✅ **689+ real community prompts** — sourced from X/Twitter creators, not AI-generated
-- ✅ **Live search** — always reflects the latest prompts, no stale cache
-- ✅ **Works with any model** — Grok Aurora, Midjourney, DALL-E 3, Flux, Nano Banana Pro, and more
-- ✅ **Includes source links** — trace every prompt back to its original creator
+- ✅ **Real community prompts** — sourced from X/Twitter creators who actually used Grok Imagine
+- ✅ **Always up to date** — live API, continuously growing as the community shares more
+- ✅ **Includes source links** — trace every prompt back to its original creator on X
+- ✅ **No setup required** — live search, no local cache or file downloads needed
 
 ## Installation
 
@@ -30,32 +36,32 @@ Or search inside OpenClaw chat:
 ### Claude Code / Cursor / Codex / Gemini CLI
 
 ```bash
-npx skills i YouMind-OpenLab/grok-imagine-prompts
+npx skills i YouMind-OpenLab/grok-imagine-prompts-search-skill
 ```
 
 ### Manual
 
 ```bash
-npx openskills install YouMind-OpenLab/grok-imagine-prompts
+npx openskills install YouMind-OpenLab/grok-imagine-prompts-search-skill
 ```
 
 ## Usage
 
 ```bash
-# Search prompts
+# Search prompts by keyword
 node scripts/search.mjs --q "cinematic portrait" --limit 5
 
-# Browse featured prompts
+# Browse recent/featured prompts
 node scripts/search.mjs --limit 10
 ```
 
 Or just tell your AI assistant:
 
-> "Find me Grok Imagine prompts for a cyberpunk cityscape"
+> "Find me Grok Imagine prompts for a slow-motion ocean wave"
 
 ## Related
 
-- 🖼️ [YouMind Grok Imagine Gallery](https://youmind.com/grok-imagine-prompts)
+- 🎬 [YouMind Grok Imagine Gallery](https://youmind.com/grok-imagine-prompts)
 - 🍌 [nano-banana-pro-prompts](https://clawhub.com/skill/nano-banana-pro-prompts) — 10,000+ image generation prompts
 - 🎬 [seedance-2-prompts](https://clawhub.com/skill/seedance-2-prompts) — Seedance 2.0 video prompts
 
