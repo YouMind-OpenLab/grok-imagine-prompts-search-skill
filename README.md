@@ -1,32 +1,64 @@
-# Grok Imagine Prompts Search
+# Grok Imagine Prompts Search Skill
 
-Search 689+ Grok image generation prompts curated from the X/Twitter community. Works with Grok 2 Aurora, Grok 3 Aurora, and any AI image model — Midjourney, DALL-E 3, Flux, Stable Diffusion, Nano Banana Pro, and more.
+[![Prompts](https://img.shields.io/badge/Prompts-689%2B-brightgreen)](https://youmind.com/grok-imagine-prompts)
+[![OpenClaw](https://img.shields.io/badge/OpenClaw-Skill-blue)](https://clawhub.com/skill/grok-imagine-prompts)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-orange)](https://github.com/YouMind-OpenLab/grok-imagine-prompts)
 
-## Use Cases
+> Search 689+ Grok Imagine prompts curated from real X/Twitter creators. Works with Grok 2 Aurora, Grok 3 Aurora, and any AI image model.
+>
+> 🖼️ [Browse the Gallery →](https://youmind.com/grok-imagine-prompts)
 
-- Find Grok image generation prompts from the community
-- Generate images with Grok 2 / Grok 3 Aurora
-- Get prompt inspiration for portraits, cinematic scenes, fantasy art, product shots, etc.
-- Search a live library of real X/Twitter community prompts
-- Find proven prompts that actually work with Grok Aurora
+## Why Use This Skill?
 
-## Setup
+- ✅ **689+ real community prompts** — sourced from X/Twitter creators, not AI-generated
+- ✅ **Live search** — always reflects the latest prompts, no stale cache
+- ✅ **Works with any model** — Grok Aurora, Midjourney, DALL-E 3, Flux, Nano Banana Pro, and more
+- ✅ **Includes source links** — trace every prompt back to its original creator
+
+## Installation
+
+### OpenClaw (Recommended)
 
 ```bash
-npm install
+clawhub install grok-imagine-prompts
+```
+
+Or search inside OpenClaw chat:
+
+> "Install the grok imagine prompts skill from clawhub"
+
+### Claude Code / Cursor / Codex / Gemini CLI
+
+```bash
+npx skills i YouMind-OpenLab/grok-imagine-prompts
+```
+
+### Manual
+
+```bash
+npx openskills install YouMind-OpenLab/grok-imagine-prompts
 ```
 
 ## Usage
 
 ```bash
 # Search prompts
-node scripts/search.js "portrait"
+node scripts/search.mjs --q "cinematic portrait" --limit 5
 
-# Or use the skill via OpenClaw
-npx skills i grok-imagine-prompts
+# Browse featured prompts
+node scripts/search.mjs --limit 10
 ```
+
+Or just tell your AI assistant:
+
+> "Find me Grok Imagine prompts for a cyberpunk cityscape"
 
 ## Related
 
-- [YouMind Gallery](https://youmind.com/grok-imagine-prompts)
-- [GitHub](https://github.com/YouMind-OpenLab/grok-imagine-prompts)
+- 🖼️ [YouMind Grok Imagine Gallery](https://youmind.com/grok-imagine-prompts)
+- 🍌 [nano-banana-pro-prompts](https://clawhub.com/skill/nano-banana-pro-prompts) — 10,000+ image generation prompts
+- 🎬 [seedance-2-prompts](https://clawhub.com/skill/seedance-2-prompts) — Seedance 2.0 video prompts
+
+## License
+
+MIT © [YouMind](https://youmind.com)
