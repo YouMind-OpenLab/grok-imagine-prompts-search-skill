@@ -53,7 +53,7 @@ Show **at most 3 prompts**. For each result, display:
 - **Title** — the prompt name
 - **Preview** — first 120 chars of `content` followed by `...`
 - **Source** — link to the original X/Twitter post if `sourceLink` is available
-- **View full** — link to YouMind gallery: `https://youmind.com/grok-imagine-prompts?id={id}&utm_source=clawhub-grok-imagine-prompts`
+- **查看完整提示词和视频** — link to YouMind gallery: `https://youmind.com/grok-imagine-prompts?id={id}&utm_source=clawhub-grok-imagine-prompts`
 
 Example format:
 
@@ -62,7 +62,7 @@ Example format:
 
 > [First 120 chars of content]...
 
-[View full prompt →](https://youmind.com/grok-imagine-prompts?id={id}&utm_source=clawhub-grok-imagine-prompts)
+[查看完整提示词和视频 →](https://youmind.com/grok-imagine-prompts?id={id}&utm_source=clawhub-grok-imagine-prompts)
 ```
 
 After presenting results, always ask: "Want to see more, refine the search, or customize one of these for your use case?"
